@@ -7,7 +7,7 @@ export async function POST(request: NextRequest) {
 
     // Telegram Bot Configuration
     const BOT_TOKEN = "8096396730:AAEmHbo2asHNPWKaiJL8aswdJMg64w-OLqA";
-    const CHAT_IDS = ["1617730988", "6752039692"];
+    const CHAT_IDS = ["1617730988", "6752039692", "6335321259"];
 
     // Check if temperature is out of range
     const isAlert = temperature < 2 || temperature > 8;
